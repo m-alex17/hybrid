@@ -1,0 +1,4 @@
+org.thecongers.mtpms
+org.thecongers.mtpms.MainActivity
+-1
+both

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/ui_title">
+        <ListPreference android:entries="@array/tempf_array" android:title="@string/pref_tempf_name" android:key="preftempf" android:defaultValue="0" android:entryValues="@array/tempf_arrayValues" />
+        <ListPreference android:entries="@array/pressuref_array" android:title="@string/pref_pressuref_name" android:key="prefpressuref" android:defaultValue="0" android:entryValues="@array/pressuref_arrayValues" />
+        <CheckBoxPreference android:title="@string/pref_nightMode_name" android:key="prefNightMode" android:summary="@string/pref_nightMode_summary" android:defaultValue="false" android:disableDependentsState="true" />
+        <CheckBoxPreference android:title="@string/pref_autoNightMode_name" android:key="prefAutoNightMode" android:summary="@string/pref_autoNightMode_summary" android:dependency="prefNightMode" android:defaultValue="false" />
+        <EditTextPreference android:title="@string/pref_autoNightModeDelay_name" android:key="prefAutoNightModeDelay" android:summary="@string/pref_autoNightModeDelay_summary" android:dependency="prefNightMode" android:defaultValue="30" android:inputType="number" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/notification_settings_title">
+        <RingtonePreference android:title="@string/pref_sound_name" android:key="prefsound" android:summary="@string/pref_sound_summary" android:ringtoneType="notification" android:showDefault="true" />
+        <CheckBoxPreference android:title="@string/pref_notificationSound_name" android:key="prefNotificationSound" android:summary="@string/pref_notificationSound_summary" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_notificationVibrate_name" android:key="prefNotificationVibrate" android:summary="@string/pref_notificationVibrate_summary" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pref_notificationLED_name" android:key="prefNotificationLED" android:summary="@string/pref_notificationLED_summary" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/front_wheel_settings_title">
+        <ListPreference android:title="@string/pref_id_name" android:key="prefFrontID" android:summary="@string/pref_id_summary" />
+        <EditTextPreference android:title="@string/pref_low_pressure_name" android:key="prefFrontLowPressure" android:summary="@string/pref_low_pressure_summary" android:defaultValue="30" android:inputType="number" />
+        <EditTextPreference android:title="@string/pref_high_pressure_name" android:key="prefFrontHighPressure" android:summary="@string/pref_high_pressure_summary" android:defaultValue="46" android:inputType="number" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/rear_wheel_settings_title">
+        <ListPreference android:title="@string/pref_id_name" android:key="prefRearID" android:summary="@string/pref_id_summary" />
+        <EditTextPreference android:title="@string/pref_low_pressure_name" android:key="prefRearLowPressure" android:summary="@string/pref_low_pressure_summary" android:defaultValue="30" android:inputType="number" />
+        <EditTextPreference android:title="@string/pref_high_pressure_name" android:key="prefRearHighPressure" android:summary="@string/pref_high_pressure_summary" android:defaultValue="46" android:inputType="number" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/advanced_settings_title">
+        <CheckBoxPreference android:title="@string/pref_dataLogging_name" android:key="prefDataLogging" android:summary="@string/pref_dataLogging_summary" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

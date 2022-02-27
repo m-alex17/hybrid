@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="abc_action_bar_home_description">Navigate home</string>
+    <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
+    <string name="abc_action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
+    <string name="abc_action_bar_up_description">Navigate up</string>
+    <string name="abc_action_menu_overflow_description">More options</string>
+    <string name="abc_action_mode_done">Done</string>
+    <string name="abc_activity_chooser_view_see_all">See all</string>
+    <string name="abc_activitychooserview_choose_application">Choose an app</string>
+    <string name="abc_searchview_description_clear">Clear query</string>
+    <string name="abc_searchview_description_query">Search query</string>
+    <string name="abc_searchview_description_search">Search</string>
+    <string name="abc_searchview_description_submit">Submit query</string>
+    <string name="abc_searchview_description_voice">Voice search</string>
+    <string name="abc_shareactionprovider_share_with">Share with</string>
+    <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
+    <string name="abc_toolbar_collapse_description">Collapse</string>
+    <string name="action_about">About</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_sensorReset">Reset Sensor IDs</string>
+    <string name="action_settings">Settings</string>
+    <string name="advanced_settings_title">Advanced Settings</string>
+    <string name="alert_about_button">OK</string>
+    <string name="alert_about_title">About</string>
+    <string name="alert_highFrontHighRearPressure">High front and rear tire pressure!</string>
+    <string name="alert_highFrontLowRearPressure">High front and Low rear tire pressure!</string>
+    <string name="alert_highFrontPressure">High front tire pressure!</string>
+    <string name="alert_highRearPressure">High rear tire pressure!</string>
+    <string name="alert_lowFrontHighRearPressure">Low front and High rear tire pressure!</string>
+    <string name="alert_lowFrontLowRearPressure">Low front and rear tire pressure!</string>
+    <string name="alert_lowFrontPressure">Low front tire pressure!</string>
+    <string name="alert_lowRearPressure">Low rear tire pressure!</string>
+    <string name="alert_setup_button">OK</string>
+    <string name="alert_setup_message">"You will need to first pair your device to the iTPMSystem.
+
+Once connected the sensors should be discovered in about a minute.
+
+After which you will need to map the sensors to wheel locations."</string>
+    <string name="alert_setup_title">Setup Instructions</string>
+    <string name="app_name">Motorcycle TPMS</string>
+    <string name="app_shortName">mTPMS</string>
+    <string name="front_wheel_settings_title">Front Wheel Settings</string>
+    <string name="notification_settings_title">Notification Settings</string>
+    <string name="pref_autoNightModeDelay_name">Auto Night Mode Delay In Seconds</string>
+    <string name="pref_autoNightModeDelay_summary">Set Auto Night Mode Delay In Seconds</string>
+    <string name="pref_autoNightMode_name">Auto Night Mode</string>
+    <string name="pref_autoNightMode_summary">Enable Auto Night Mode (Requires light sensor)</string>
+    <string name="pref_dataLogging_name">Data Logging</string>
+    <string name="pref_dataLogging_summary">Enable Data Logging To /sdcard/mTPMS/</string>
+    <string name="pref_high_pressure_name">High Pressure</string>
+    <string name="pref_high_pressure_summary">High Pressure Alert Threshold</string>
+    <string name="pref_id_name">Wheel Sensor ID</string>
+    <string name="pref_id_summary">Select Sensor ID</string>
+    <string name="pref_low_pressure_name">Low Pressure</string>
+    <string name="pref_low_pressure_summary">Low Pressure Alert Threshold</string>
+    <string name="pref_nightMode_name">Night Mode</string>
+    <string name="pref_nightMode_summary">Enable Night Mode, Disables Auto Night Mode</string>
+    <string name="pref_notificationLED_name">LED</string>
+    <string name="pref_notificationLED_summary">Enable LED</string>
+    <string name="pref_notificationSound_name">Sound</string>
+    <string name="pref_notificationSound_summary">Enable Sound</string>
+    <string name="pref_notificationVibrate_name">Vibration</string>
+    <string name="pref_notificationVibrate_summary">Enable Vibration</string>
+    <string name="pref_pressuref_name">Pressure Unit</string>
+    <string name="pref_sound_name">Sound</string>
+    <string name="pref_sound_summary">Notification Sound</string>
+    <string name="pref_tempf_name">Temperature Unit</string>
+    <string name="rear_wheel_settings_title">Rear Wheel Settings</string>
+    <string name="toast_connectedTo">Connected to:</string>
+    <string name="toast_newSensor">New sensor discovered:</string>
+    <string name="toast_noPaired">No previously paired iTPMSystem found</string>
+    <string name="ui_title">User Interface</string>
+</resources>
